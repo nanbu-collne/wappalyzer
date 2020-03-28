@@ -13823,6 +13823,23 @@
       "icon": "varbase.png",
       "implies": "Drupal",
       "website": "https://drupal.org/project/varbase"
+    },
+    "Welcart": {
+      "cats": [
+       6
+      ],
+      "cpe": "cpe:/a:welcart:welcart",
+      "html": [
+        "<link[^>]+?href=\"[^\"]+usces_default(?:\\.min)?\\.css",
+        "<!-- Welcart version "
+      ],
+      "script": "uscesL10n",
+      "implies": [
+        "PHP",
+        "WordPress"
+      ],
+      "icon": "welcart.png",
+      "website": "https://www.welcart.com"
     }
   },
   "categories": {
